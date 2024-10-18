@@ -12,4 +12,3 @@
 =======
 No usar esta libreria esta en fase de proebas de npm.
 es solo aprendizaje.
->>>>>>> f2479f9938dc0f3c724fe8d2c262ea3650d06676
