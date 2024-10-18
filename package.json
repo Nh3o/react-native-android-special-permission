@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-react-native-android-special-permission",
+  "name": "react-native-android-special-permission",
   "version": "1.0.1",
   "description": "paquete para acceder a los permisos especiales.",
   "main": "index.js",
@@ -11,9 +11,9 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Nh3o",
+  "license": "no tenie licencia por que es solo una prueba de concepto",
   "peerDependencies": {
-    "react-native": "^0.74.0"
+    "react-native": "*"
   }
 }
