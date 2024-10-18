@@ -8,3 +8,5 @@ export const openSettings = (action, packageName) => {
 export const hasManageAllFilesAccess = (callback) => {
   OpenSettings.hasManageAllFilesAccess(callback);
 };
+
+export default OpenSettings;

@@ -1,17 +1,42 @@
+
 buildscript {
     repositories {
         google()
         mavenCentral()
     }
+
     dependencies {
-        classpath("com.android.tools.build:gradle")
-        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath('')
+        classpath('com.facebook.react:react-native-gradle-plugin')
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.facebook.react'
+android {
+    
+    buildToolsVersion "23.0.1"
+     compileSdkVersion rootProject.ext.compileSdkVersion
+        
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
     }
 }
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+}
+  
